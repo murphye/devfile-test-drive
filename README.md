@@ -4,8 +4,6 @@ This projects examines the possiblities around containerized development environ
 
 This project has these goals:
 
-## Phase 1
-
 1. Include a Quarkus application that requires a running PostgreSQL database
 1. Include a Devfile to be compatible with both OpenShift Do (odo) and Che (CodeReady Workspaces)
 1. Devfile work both locally with Docker and also on OpenShift in CodeReady Workspaces
@@ -13,10 +11,6 @@ This project has these goals:
 1. Quarkus Native Image
 1. Fully working unit and integration tests
 1. Simple and straightforward solution with minimal config
-
-## Phase 2
-
-TODO: Examine making the application work with Knative (OpenShift Serverless) and Tekton (OpenShift Pipelines)
 
 ## Developer Environment Setup
 

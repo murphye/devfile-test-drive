@@ -73,7 +73,7 @@ odo url create --port 8080
 odo push
 ```
 
-Watch for `✓  URL 127.0.0.1:59382 created` to get the local URL
+Watch for custom URL `✓  URL 127.0.0.1:59382 created` to get the local URL
 
 > When odo deploys a devfile component, it pulls the images for each dockercontainer in devfile.yaml and deploys them. Each docker container that is deployed is labeled with the name of the odo component. Docker volumes are created for the project source, and any other volumes defined in the devfile and mounted to the necessary containers.
 

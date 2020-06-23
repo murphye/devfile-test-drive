@@ -48,7 +48,7 @@ chmod +x /usr/local/bin/odo
 odo preference set experimental true
 ```
 
-### Step 3: Set Push Target to Docker
+### Step 3: Set Push Target to Docker for Local Development
 
 ```
 odo preference set pushtarget docker

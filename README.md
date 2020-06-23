@@ -54,6 +54,30 @@ odo preference set experimental true
 odo preference set pushtarget docker
 ```
 
+### Step 4: Download Sample Project for Local Development (TODO)
+
+```
+git clone https://github.com/odo-devfiles/springboot-ex
+```
+
+### Step 5: Create Component Configuration (TODO)
+
+```
+odo create java-spring-boot mydockerspringboot
+```
+
+### Step 6: Deploy Application Locally (TODO)
+
+```
+odo url create --port 8080
+odo push
+```
+
+Watch for `✓  URL 127.0.0.1:59382 created` to get the local URL
+
+> When odo deploys a devfile component, it pulls the images for each dockercontainer in devfile.yaml and deploys them. Each docker container that is deployed is labeled with the name of the odo component. Docker volumes are created for the project source, and any other volumes defined in the devfile and mounted to the necessary containers.
+
+Go to http://127.0.0.1:59382 to see the application
 
 
 ## References

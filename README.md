@@ -42,6 +42,17 @@ chmod +x /usr/local/bin/odo
 
 > Note that for Community and Official, both the latest version of Odo is used.
 
+### Step 2: Enable Experimental Mode
+
+```
+odo preference set experimental true
+```
+
+### Step 3: Set Push Target to Docker
+
+```
+odo preference set pushtarget docker
+```
 
 
 
